@@ -1,1 +1,92 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign-2</title>
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("1.jpg");
+}
+section{
+    background-color:#EEEEEE;
+    border:2px solid black;
+    margin:10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+@media(min-width:768px) and (max-width:991px)
+{
+  .col-md-6,.col-md-12{float:left;}
+  .col-md-6
+  {
+    width:45%;
+  }
+  .col-md-12
+  {
+      width: 95%;
+  }
+}
+@media (max-width:767px)
+{
+    .col-sm-12
+    {
+      width:95%;
+   } 
+}
+@media (min-width:992px)
+{
+    .col-lg-4{float:left;}
+ .col-lg-4
+  {
+    width: 31%;
+  } 
+}
+#h
+{
+    text-align: center;
+    margin: 50px;
+    color: burlywood;
+    font-size: 50px;
+}
+.title
+{
+    border:2px solid black;
+    text-align: center;
+    padding:2px;
+    width:30%;
+    position : absolute;
+    right:-2px;
+    top:-22px;
+    background-color:blanchedalmond;
+}
+section>p{
+    margin: 60px 30px 30px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%; 
+}
+</style>
+</head>
+<body>
+<h2 id="h">Our Menu</h2>
+<section class="col-md-6 col-lg-4 col-sm-12">
+    <h2 class="title" style="color: #EEEEEE;background-color: chocolate; font-style: italic">Tea</h2>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</section>
+<section class="col-md-6 col-lg-4 col-sm-12">
+    <h2 class="title" style="color:brown; background-color: cornsilk; font-style: italic">Coffee</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+<section class="col-md-12 col-lg-4 col-sm-12">
+    <h2 class="title" style="color:white; background-color:brown; font-style: italic">Milk</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</section>
+</body>
+</html>
