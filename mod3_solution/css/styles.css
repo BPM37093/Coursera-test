@@ -1,0 +1,18 @@
+.img-nav
+{
+    height: 100px;
+    opacity: 90%;
+}
+.nav-item:hover
+{
+    transform: scale(1.2);
+}
+.cols
+{
+    padding: 10px;
+}
+.box
+{
+    background-color: bisque;
+    padding: 15px;
+}
